@@ -1,0 +1,53 @@
+name = "khusbu"
+def namelist():
+    name1 = "khusbu1"
+    name2 = "Khusbu2"
+    print(name)
+    print(name1)
+    print(name2)
+namelist()    
+
+
+
+me = { 'name':'khusbu', 'age':19,
+       'address': "letang",
+       'Isnepal': True}
+del me['name']
+print(me)
+me['Isnepal'] = True
+
+my_tuple = (1,2,3,4,5,6,7)
+
+my_set = {1,2,3,4,1,2}
+print(my_set)
+
+fruits = ['apple','banana','yupiee']
+for fruit in fruits:
+    print(fruit)
+
+colors=('red','black')
+for colo in colors:
+    print(colo)
+
+uni_num = {1,2,3,4,6}
+for num in uni_num:
+    print(num)
+
+student_grades = {
+    'Pranjal' : 90,
+    'Bob' : 50,
+    'Manish' : 30
+}
+
+for student in student_grades:
+    print(student,"scored",student_grades[student])
+
+for student,grade in student_grades.items():
+    print(student,"scored",grade)
+
+for value in student_grades.values():
+     print(value)
+
+
+# for char in message:
+#     print(char)
