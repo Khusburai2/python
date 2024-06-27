@@ -1,0 +1,111 @@
+# name = "khusbu"
+# def namelist():
+#     name1 = "khusbu1"
+#     name2 = "Khusbu2"
+#     print(name)
+#     print(name1)
+#     print(name2)
+# namelist()    
+
+
+
+# me = { 'name':'khusbu', 'age':19,
+#        'address': "letang",
+#        'Isnepal': True}
+# del me['name']
+# print(me)
+# me['Isnepal'] = True
+
+# my_tuple = (1,2,3,4,5,6,7)
+
+# my_set = {1,2,3,4,1,2}
+# print(my_set)
+
+# fruits = ['apple','banana','yupiee']
+# for fruit in fruits:
+#     print(fruit)
+
+# colors=('red','black')
+# for colo in colors:
+#     print(colo)
+
+# uni_num = {1,2,3,4,6}
+# for num in uni_num:
+#     print(num)
+
+# student_grades = {
+#     'Pranjal' : 90,
+#     'Bob' : 50,
+#     'Manish' : 30
+# }
+
+# for student in student_grades:
+#     print(student,"scored",student_grades[student])
+
+# for student,grade in student_grades.items():
+#     print(student,"scored",grade)
+
+# for value in student_grades.values():
+#      print(value)
+
+
+#  for char in message:
+#     print(char)
+
+
+# oop 
+def greet(name):
+    print(f"Hello",name)
+
+greet('Anup')    
+greet('Bob')  
+
+# to add 2 numbers 
+def addition(a,b):
+    sum = a+b
+    print(f"the sum is",sum)
+
+addition(4,5)    
+
+# using return
+def add_num(num1,num2):
+    return num1+num2
+result = add_num(5,7)
+print('The sum is:',result)
+
+# lambda function
+add = lambda a,b : a+b
+multiply = lambda x,y : x*y
+print(add(1,2))
+print(multiply(4,5))
+
+
+# multiple value lai tuple mah rakhne , jati ne accept garnnu lai 
+def test(*args):
+    print(args)
+test(1,2,3)    
+
+#for odd number 
+def is_odd(number):
+    return number % 2 != 0
+
+result = is_odd(5)
+print(result)
+
+#function  and alos using for loop
+def myfunction(mylist):
+    for i in mylist:
+        print(mylist)
+
+myfunction([1,2,3,4,56,7])
+
+
+
+mylist = [1,2,3,4,5]
+def cub(mylist):
+    for i in mylist:
+        print(i**3)
+cub([3,4,5])        
+
+    
+
